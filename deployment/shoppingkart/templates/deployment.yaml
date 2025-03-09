@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: {{ include "my-ekart-chart.name" . }}
+        app: shoppingkart
     spec:
       containers:
         - name: {{ .Chart.Name }}
